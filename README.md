@@ -21,7 +21,7 @@ A mobile app that shows the trending list of movies and allows users to browse m
 ### App Walkthough GIF
 `TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="Walkthrough of Basic Flixster App.gif" width=250><br>
 
 ### Notes
 I tried implementing the stretch exercises to improve the orientation of the app. However, it kept crashing. I didn't know that the RecyclerView for the different layouts will be
