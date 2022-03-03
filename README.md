@@ -19,13 +19,13 @@
 
 ### App Walkthough GIF
 
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="Walkthrough of Basic Flixster App with YT.gif" width=250><br>
 
 ### Notes
 
 Describe any challenges encountered while building the app.
+Learning how to use intent to move from one activity to another was challenging for me and also debugging through the process.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
@@ -33,7 +33,7 @@ Describe any challenges encountered while building the app.
 # Flixster_App
 A mobile app that shows the trending list of movies and allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#)..
 
-
+##
 ## Flix Part 1
 
 ### User Stories
