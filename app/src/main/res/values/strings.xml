@@ -3,4 +3,6 @@
     <string name="Movie_Title">Spider-Man: No Way Home</string>
     <string name="Movie_Overview">Peter Parker is unmasked and no longer able to separate his normal life from the high-stakes of being a super-hero. When he asks for help from Doctor Strange the stakes become even more dangerous, forcing him to discover what it truly means to be Spider-Man.</string>
     <string name="Image_of_Movie">Movie Image</string>
+    <string name="Movie_Deets" />
+    <string name="Title">Boss Bay: Family Business</string>
 </resources>
