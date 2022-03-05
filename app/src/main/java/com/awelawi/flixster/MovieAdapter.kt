@@ -1,5 +1,6 @@
 package com.awelawi.flixster
 
+import android.app.ActivityOptions.makeSceneTransitionAnimation
 import android.content.Context
 import android.content.Intent
 import android.util.Log
@@ -12,6 +13,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.Glide.init
+import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import java.lang.reflect.Array.get
 
 private const val TAG = "Movie Adapter"
@@ -59,7 +61,15 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
         fun bind(movie: Movie) {
             tvTitle.text = movie.title
             tvOverview.text = movie.overview
+            val radius = 30 // corner radius, higher value = more rounded
+            val margin = 10 // crop margin, set to 0 for corners with no crop
+//            Glide.with(this)
+//                .load("http://via.placeholder.com/300.png")
+//                .centerCrop() // scale image to fill the entire ImageView
+//                .transform(RoundedCornersTransformation(radius, margin))
+//                .into(ivImg)
             Glide.with(context).load(movie.posterImageUrl).into(ivPoster)
+//            Glide.with(context).load(movie.posterImageUrl).centerCrop().transform(RoundedCorners(radius)).into(ivPoster)
 
         }
 
@@ -74,7 +84,19 @@ class MovieAdapter(private val context: Context, private val movies: List<Movie>
             val intent = Intent(context, DetailActivity::class.java)
 //            intent.putExtra("movie title, ", movie.title )
             intent.putExtra(MOVIE_EXTRA, movie)
+//            makeSceneTransitionAnimation(this@MovieAdapter, tvTitle, "more_info" )
+//            makeSceneTransitionAnimation(this@DetailActivity, tvTitle as View?, "moreinfo")
             context.startActivity(intent)
+
         }
+//        fun onOptionsItemSelected(item: View): Boolean {
+//            when (item.getItemId()) {
+//                android.R.id.home -> {
+//                    supportFinishAfterTransition()
+//                    return true
+//                }
+//            }
+//            return super.onOptionsItemSelected(item)
+//        }
     }
 }
