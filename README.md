@@ -51,7 +51,7 @@ A mobile app that shows the trending list of movies and allows users to browse m
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-<img src="Walkthrough of Basic Flixster App.gif" width=250><br>
+<img src="Walkthrough of Basic Flixster App 2 with YT.gif" width=250><br>
 
 ### Notes
 I tried implementing the stretch exercises to improve the orientation of the app. However, it kept crashing. I didn't know that the RecyclerView for the different layouts will be
